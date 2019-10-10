@@ -1,0 +1,108 @@
+/* Line 1 */
+.line1{
+    position: absolute;
+    width: 375px;
+    height: 72px;
+    left: 0px;
+    top: 256px;
+}
+
+
+/* divider */
+.divider{
+    position: absolute;
+    width: 375px;
+    height: 1px;
+    left: 0px;
+    top: 71px;
+
+
+    /* Gray */
+    background: #9B9B9B;
+    opacity: 0.05;
+
+    /* 1 */
+    position: absolute;
+    width: 142px;
+    height: 36px;
+    left: 15px;
+    top: 18px;
+}
+
+
+
+
+/* Seja um vendedor */
+.sejavendedor{
+    position: absolute;
+    width: 142px;
+    height: 16px;
+    left: 15px;
+    top: 18px;
+
+    /* 16px */
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+
+    /* Black */
+    background: #222222;
+}
+
+
+/* Habilite sua loja */
+.habiliteloja{
+
+    position: absolute;
+    width: 83px;
+    height: 11px;
+    left: 16px;
+    top: 43px;
+
+    /* 11px */
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+    /* identical to box height */
+
+    /* Gray */
+    background: #9B9B9B;
+
+
+    /* chevron right */
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 343px;
+    top: 24px;
+
+
+
+    /* Shape */
+
+    position: absolute;
+    width: 7.4px;
+    height: 12px;
+    left: 351.6px;
+    top: 30px;
+
+    /* Gray */
+    background: #9B9B9B;
+    mix-blend-mode: normal;
+
+}
+
+/* bounds */
+.bounds{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 343px;
+    top: 24px;
+}
