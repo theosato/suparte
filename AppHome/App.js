@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import {HomeHeader} from './components/homeHeader/HomeHeader';
+import {HomeHeader} from './componentes/homeHeader/HomeHeader';
 import './App.css';
-import { SlideShow } from './components/slideShow/SlideShow';
-import { HomeFeatured } from './components/homeFeatured/HomeFeatured';
+import { SlideShow } from './componentes/slideShow/SlideShow';
+import { HomeFeatured } from './componentes/homeFeatured/HomeFeatured';
 
 class App extends Component {
   render() {

@@ -1,0 +1,70 @@
+/* Featured */
+
+.HomeFeatured {
+    position: relative;
+    width: 375px;
+    height: 331px;
+    left: 0px;
+    top: 460px;
+
+    background-color: #F9F9F9;
+}
+
+/* Title */
+
+.Title {
+    position: relative;
+    left: -80px;
+    top: 20px;
+
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 34px;
+    /* identical to box height */
+}
+
+/* Subtitle */
+
+.Subtitle {
+    position: relative;
+    left: -85px;
+    top: 25px;
+    
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+    /* identical to box height */
+
+    color:#9B9B9B;
+}
+
+/* SeeAll */
+
+.SeeAll {
+    position: relative;
+    left: 135px;
+    top: -10px;
+
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+    /* identical to box height */
+   
+    color:#9B9B9B;
+}
+
+.Items {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 375px;
+    top:20px;
+    left: 18px;
+    height: 260px;
+}
