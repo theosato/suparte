@@ -1,0 +1,38 @@
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background-color: rgb(255, 255, 255);
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 812px;
+  width: 375px;
+}
+
+.Toolbar {
+  position: absolute;
+  left: 0px;
+  top: 20px; 
+}
+
+.Sucesso {
+  position: absolute;
+  top: 55%;
+  left: 115px;
+}
+
+.Obrigado {
+  position: absolute;
+  top: 60%;
+  left: 74px;
+}
+
+.ContinuarComprando {
+  position: absolute;
+  top: 75%;
+  left: 2%;
+}

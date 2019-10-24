@@ -3,7 +3,7 @@ import itemFeatured from './ItemFeatured.svg'
 import './ItemFeatured.css'
 import { AddFavorite } from '../addFavorite/AddFavorite';
 import { Rating } from '../rating/Rating';
-const ItemFeatured = ({photo, name, author, price}) => (
+const ItemFeatured = ({id, photo, name, author, price, description}) => (
     <div className="ItemFeatured">
       <div className="Photo"><img src = { photo } width='100px' height='140px'/></div>
       <Rating />

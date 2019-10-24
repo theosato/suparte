@@ -13,8 +13,8 @@ const useStyles = makeStyles({
   root: {
     width: 375
   },
-  content: {
-    width: 50
+  BottomNavigationAction: {
+    maxWidth: 50
   }
 });
 
@@ -65,36 +65,31 @@ export default function LabelBottomNavigation() {
         component={Link} to="/" 
         label="Home" 
         value="home" 
-        icon={<HomeIcon />} 
-        className={classes.content}/>
-
+        icon={<HomeIcon />} />
+        
       <BottomNavigationAction 
         component={Link} to="/" 
         label="Search" 
         value="search" 
-        icon={<SearchIcon />} 
-        className={classes.content} />
+        icon={<SearchIcon />} />
 
       <BottomNavigationAction
-        component={Link} to="/" 
+        component={Link} to="/Success" 
         label="Cart" 
         value="cart" 
-        icon={<ShoppingCartOutlinedIcon />} 
-        className={classes.content} />
+        icon={<ShoppingCartOutlinedIcon />} />
 
       <BottomNavigationAction
         component={Link} to="/" 
         label="Favorite" 
         value="favorite" 
-        icon={<FavoriteIcon />} 
-        className={classes.content} />
+        icon={<FavoriteIcon />} />
 
       <BottomNavigationAction 
         component={Link} to="/" 
         label="Profile" 
         value="profile" 
-        icon={<PersonOutlineOutlinedIcon />} 
-        className={classes.content} />
+        icon={<PersonOutlineOutlinedIcon />} />
 
     </BottomNavigation>
   );
