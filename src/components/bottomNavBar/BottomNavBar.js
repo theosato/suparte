@@ -7,12 +7,49 @@ import SearchIcon from '@material-ui/icons/Search';
 import HomeIcon from '@material-ui/icons/Home';
 import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
 import PersonOutlineOutlinedIcon from '@material-ui/icons/PersonOutlineOutlined';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles({
   root: {
     width: 375
   },
+  content: {
+    width: 50
+  }
 });
+
+const paths = [
+  {
+    to:"/",
+    label:"Home",
+    value:"home",
+    icon: HomeIcon
+  },
+  {
+    to:"/",
+    label:"Home",
+    value:"home",
+    icon: HomeIcon
+  },
+  {
+    to:"/",
+    label:"Home",
+    value:"home",
+    icon: HomeIcon
+  },
+  {
+    to:"/",
+    label:"Home",
+    value:"home",
+    icon: HomeIcon
+  },
+  {
+    to:"/",
+    label:"Home",
+    value:"home",
+    icon: HomeIcon
+  },
+]
 
 export default function LabelBottomNavigation() {
   const classes = useStyles();
@@ -24,12 +61,57 @@ export default function LabelBottomNavigation() {
 
   return (
     <BottomNavigation value={value} onChange={handleChange} className={classes.root}>
-      <BottomNavigationAction label="Home" value="home" icon={<HomeIcon />} />
-      <BottomNavigationAction label="Search" value="search" icon={<SearchIcon />} />
-      <BottomNavigationAction label="Cart" value="cart" icon={<ShoppingCartOutlinedIcon />} />
-      <BottomNavigationAction label="Favorite" value="favorite" icon={<FavoriteIcon />} />
-      <BottomNavigationAction label="Profile" value="profile" icon={<PersonOutlineOutlinedIcon />} />
+      <BottomNavigationAction 
+        component={Link} to="/" 
+        label="Home" 
+        value="home" 
+        icon={<HomeIcon />} 
+        className={classes.content}/>
+
+      <BottomNavigationAction 
+        component={Link} to="/" 
+        label="Search" 
+        value="search" 
+        icon={<SearchIcon />} 
+        className={classes.content} />
+
+      <BottomNavigationAction
+        component={Link} to="/" 
+        label="Cart" 
+        value="cart" 
+        icon={<ShoppingCartOutlinedIcon />} 
+        className={classes.content} />
+
+      <BottomNavigationAction
+        component={Link} to="/" 
+        label="Favorite" 
+        value="favorite" 
+        icon={<FavoriteIcon />} 
+        className={classes.content} />
+
+      <BottomNavigationAction 
+        component={Link} to="/" 
+        label="Profile" 
+        value="profile" 
+        icon={<PersonOutlineOutlinedIcon />} 
+        className={classes.content} />
+
     </BottomNavigation>
   );
 
 }
+
+// {items.map (
+//   item => <BottomNavigationAction
+//     component={Link}
+//     to={item.to}
+//     label={item.label}
+//     value={item.value}
+//     icon= {item.icon}
+//     className={classes.content}
+//   />
+// )}
+// </BottomNavigation>
+// );
+
+// }

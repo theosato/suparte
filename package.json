@@ -8,7 +8,9 @@
     "npx": "^10.2.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "^0.9.5"
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^0.9.5",
+    "register-service-worker": "file:node_modules/register-service-worker"
   },
   "devDependencies": {},
   "scripts": {

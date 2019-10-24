@@ -10,19 +10,17 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('root')
-);
+// ReactDOM.render(
+//   <App />,
+//   document.getElementById('root')
+// );
 
 ReactDOM.render(
-  <BrowserRouter>
+  <Router>
       <Switch>
           <Route path="/" exact={true} component={App} />
       </Switch>
-  </BrowserRouter>, 
+  </Router>, 
   document.getElementById('root'));
-registerServiceWorker();
