@@ -1,8 +1,10 @@
 import React from 'react';
-import boxprofile from './boxprofile.svg'
-const boxprofile = () => (
-    <div className="boxprofile">
-      <img src={boxprofile} />
+import boxProfile from './boxprofile.svg'
+const BoxProfile = ({titulo, subtitulo}) => (
+    <div className="BoxProfile">
+      <img src={boxProfile} />
+      <div className="Titulo">{ titulo }</div>
+      <div className="Subtitulo">{ subtitulo }</div>
     </div>
   )
-export {boxprofile}
+export {BoxProfile}

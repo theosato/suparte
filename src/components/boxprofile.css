@@ -33,7 +33,7 @@
 
 
 /* Seja um vendedor */
-.sejavendedor{
+.titulo{
     position: absolute;
     width: 142px;
     height: 16px;
@@ -54,7 +54,7 @@
 
 
 /* Habilite sua loja */
-.habiliteloja{
+.subtitulo{
 
     position: absolute;
     width: 83px;
