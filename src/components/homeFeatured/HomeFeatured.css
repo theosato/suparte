@@ -1,11 +1,8 @@
 /* Featured */
 
 .HomeFeatured {
-    position: relative;
     width: 375px;
     height: 331px;
-    left: 0px;
-    top: 460px;
 
     background-color: #F9F9F9;
 }
@@ -13,10 +10,9 @@
 /* Title */
 
 .Title {
-    position: relative;
-    left: -80px;
-    top: 20px;
-
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 5%;
     font-family: Metropolis;
     font-style: normal;
     font-weight: bold;
@@ -28,10 +24,8 @@
 /* Subtitle */
 
 .Subtitle {
-    position: relative;
-    left: -85px;
-    top: 25px;
-    
+    text-align: left;
+    padding-left: 5%;
     font-family: Metropolis;
     font-style: normal;
     font-weight: normal;
@@ -46,9 +40,9 @@
 
 .SeeAll {
     position: relative;
-    left: 135px;
     top: -10px;
-
+    text-align: right;
+    padding-right: 10%;
     font-family: Metropolis;
     font-style: normal;
     font-weight: normal;
@@ -60,11 +54,9 @@
 }
 
 .Items {
-    position: relative;
+    padding-left: 5%;
     display: flex;
     flex-direction: row;
-    width: 375px;
-    top:20px;
-    left: 18px;
-    height: 260px;
+    width: 350px;
+    text-align: left;
 }

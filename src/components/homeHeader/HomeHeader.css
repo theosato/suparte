@@ -1,18 +1,19 @@
 /* HeaderBar */
 .HomeHeader {
-position: absolute;
 width: 375px;
-height: 90px;
-left: 0px;
-top: 0px;
+height: 80px;
 
 background: #F9F9F9;
 }
 
-.PosBar  {
-position: absolute;
-width: 375px;
-height: 90px;
-left: 35px;
-top: 35px;
+.Table {
+    width: 375px;
+    height: 50px;
+    padding-top: 7%;
+}
+
+.Logo {
+    padding-left: 10px;
+    width: 45px;
+    height: 45px;
 }

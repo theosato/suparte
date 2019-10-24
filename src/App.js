@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import {HomeHeader} from './components/homeHeader/HomeHeader';
+import logo from './logo.png';
 import './App.css';
+import {HomeHeader} from './components/homeHeader/HomeHeader';
 import { SlideShow } from './components/slideShow/SlideShow';
 import { HomeFeatured } from './components/homeFeatured/HomeFeatured';
+import { BottomApp } from './components/bottomApp/BottomApp';
+
 
 class App extends Component {
   render() {
@@ -12,6 +14,7 @@ class App extends Component {
         <HomeHeader />
         <SlideShow  />
         <HomeFeatured />
+        <BottomApp />
       </div>
     );
   }

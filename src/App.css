@@ -3,23 +3,17 @@
 }
 
 .HomeHeader {
-  position: absolute;
   width: 375px;
-  height: 371px;
 }
 
 .SlideShow {
-  position: absolute;
   width: 375px;
-  height: 371px;
-  left: -1px;
-  top: 89px;
 }
 
 .HomeFeatured{
-  position: absolute;
   width: 375px;
-  height: 371px;
-  left: 9px;
-  top: 475px;
+}
+
+.BottomApp{
+  width: 375px;
 }

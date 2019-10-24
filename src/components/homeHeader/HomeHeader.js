@@ -1,12 +1,16 @@
 import React from 'react';
 import homeHeader from './HomeHeader.svg'
 import './HomeHeader.css';
-import { SearchBar } from '../searchBar/SearchBar';
+import CustomizedInputBase from '../searchBar/SearchBar';
+import logo from '../logo/logo.png';
 const HomeHeader = () => (
     <div className="HomeHeader">
-      <div className="PosBar">
-        <SearchBar/> 
-      </div>
+      <table className="Table"> 
+          <tr> 
+            <td> <img src= { logo } className="Logo"/> </td>
+            <td> <CustomizedInputBase /> </td>
+          </tr>
+      </table>
     </div>
   )
 export {HomeHeader}
