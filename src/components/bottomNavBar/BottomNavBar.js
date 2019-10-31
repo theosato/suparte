@@ -18,39 +18,6 @@ const useStyles = makeStyles({
   }
 });
 
-const paths = [
-  {
-    to:"/",
-    label:"Home",
-    value:"home",
-    icon: HomeIcon
-  },
-  {
-    to:"/",
-    label:"Home",
-    value:"home",
-    icon: HomeIcon
-  },
-  {
-    to:"/",
-    label:"Home",
-    value:"home",
-    icon: HomeIcon
-  },
-  {
-    to:"/",
-    label:"Home",
-    value:"home",
-    icon: HomeIcon
-  },
-  {
-    to:"/",
-    label:"Home",
-    value:"home",
-    icon: HomeIcon
-  },
-]
-
 export default function LabelBottomNavigation() {
   const classes = useStyles();
   const [value, setValue] = React.useState('home');
@@ -80,7 +47,7 @@ export default function LabelBottomNavigation() {
         icon={<ShoppingCartOutlinedIcon />} />
 
       <BottomNavigationAction
-        component={Link} to="/" 
+        component={Link} to="/orders" 
         label="Favorite" 
         value="favorite" 
         icon={<FavoriteIcon />} />
