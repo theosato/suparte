@@ -6,4 +6,9 @@
   background-color: beige;
 }
 
-
+.ProductSpace {
+  width: 375px;
+  height: 400px;
+  
+  background-color: white;
+}
