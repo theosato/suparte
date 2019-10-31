@@ -6,10 +6,11 @@ import { BottomBarPerfil } from './components/bottomBarPerfil/BottomBarPerfil';
 import { Pedido } from './components/pedido/Pedido';
 import { BottomApp } from '../bottomApp/BottomApp';
 import { HomeHeader } from '../homeHeader/HomeHeader';
+import { PedidoHeader } from '../pedidoHeader/PedidoHeader';
 
 function Pedidos() {
   return <div className="conteiner">
-  <HomeHeader />
+  <PedidoHeader />
   <div className="MeusPedidos">Meus Pedidos</div>
   <table className="Options">
     <tr>
