@@ -29,15 +29,23 @@
 }
 
 .MeusPedidos {
+<<<<<<< Updated upstream
   height:50px;
   width: 355px;
+=======
+  height:100px;
+  width: 375px;
+>>>>>>> Stashed changes
   background-color: rgb(255, 255, 255);
   text-align: left;
   color: rgb(0, 0, 0);
   font-size: 30px;
   font-weight: bold;
+<<<<<<< Updated upstream
   margin-left: 20px;
   margin-top: 20px;
+=======
+>>>>>>> Stashed changes
 }
 
 .Status {
@@ -45,6 +53,27 @@
 
 }
 
+<<<<<<< Updated upstream
+=======
+.Ped1 {
+  top: 185px;
+  left: 0px;
+  width: 375px;
+}
+
+.Ped2 {
+  top: 145px;
+  left: 0px;
+  width: 375px;
+}
+
+.Ped3 {
+  top: 105px;
+  left: 0px;
+  width: 375px;
+}
+
+>>>>>>> Stashed changes
 .Entregues {
   background-color: black;
   border: 8px solid #000000;
@@ -69,7 +98,10 @@
 .Options {
   width: 320px;
   padding-left: 20px;
+<<<<<<< Updated upstream
   padding-top: 10px;
+=======
+>>>>>>> Stashed changes
   text-align: center;
 }
 

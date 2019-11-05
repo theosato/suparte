@@ -7,10 +7,13 @@ import { Rating } from '../rating/Rating';
 
 <<<<<<< Updated upstream
 const Product = ({id, photo, price, name, description, author, location}) => {
+<<<<<<< Updated upstream
 =======
 const Product = () => {
     var produto = {}
 
+=======
+>>>>>>> Stashed changes
     const items = [
       {
           prod_id: '1',
@@ -37,8 +40,12 @@ const Product = () => {
           description: "That's a nice product."
       }
   ]
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 
+=======
+  
+>>>>>>> Stashed changes
   if(window){
     const values = queryString.parse(location.search)
     console.log(123,values)
