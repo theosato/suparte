@@ -53,7 +53,7 @@ export default function LabelBottomNavigation() {
         icon={<FavoriteIcon />} />
 
       <BottomNavigationAction 
-        component={Link} to="/" 
+        component={Link} to="/profile" 
         label="Profile" 
         value="profile" 
         icon={<PersonOutlineOutlinedIcon />} />

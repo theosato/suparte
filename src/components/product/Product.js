@@ -5,15 +5,9 @@ import { ProductHeader } from '../productHeader/ProductHeader';
 import queryString from 'query-string';
 import { Rating } from '../rating/Rating';
 
-<<<<<<< Updated upstream
-const Product = ({id, photo, price, name, description, author, location}) => {
-<<<<<<< Updated upstream
-=======
 const Product = () => {
     var produto = {}
 
-=======
->>>>>>> Stashed changes
     const items = [
       {
           prod_id: '1',
@@ -40,29 +34,22 @@ const Product = () => {
           description: "That's a nice product."
       }
   ]
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
 
-=======
-  
->>>>>>> Stashed changes
   if(window){
-    const values = queryString.parse(location.search)
-    console.log(123,values)
+    let search = window.location.search;
+    let params = new URLSearchParams(search);
+    let id = params.get('id');
+    {items.map((value) => {
+      if (value.prod_id == id) {
+        produto = value
+      }
+    })}
   }
 
   return (
     <div className="Product">
       {console.log("entrou")}
       <ProductHeader />
-<<<<<<< Updated upstream
-      <div className="Id">{ id }</div>
-      <div className="Photo"><img src = { photo } width='100px' height='140px'/></div>
-      <div className="Author">{ author }</div>
-      <div className="Name">{ name }</div>
-      <div className="Description">{ description }</div>
-      <div className="Price">{ price }</div>
-=======
       <div className="Id">{ produto.id }</div>
       <div className="Photo"><img src = { produto.photo } width='375px' height='375px'/></div>
       <div className="ProductSpace">
@@ -94,7 +81,6 @@ const Product = () => {
           </tr>
         </table>
       </div>
->>>>>>> Stashed changes
       <BottomApp />
     </div>)
 }
