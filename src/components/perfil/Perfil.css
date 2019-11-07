@@ -54,8 +54,7 @@
   margin-top: 5px;
 }
 
-
-.SejaUmVendedor {
+.Pedidos {
   height:30px;
   width: 300px;
   background-color: rgb(255, 255, 255);
@@ -70,7 +69,7 @@
   border-top-color: black;;
 }
 
-.SejaUmVendedorBio {
+.PedidosBio {
   height:30px;
   width: 300px;
   background-color: rgb(255, 255, 255);
@@ -83,6 +82,34 @@
   border-bottom-style: ridge;
   border-bottom-width: 1px;
   border-bottom-color: black;;
+}
+
+
+.SejaUmVendedor {
+  height:30px;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  color: rgb(0, 0, 0);
+  font-size: 19px;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.SejaUmVendedorBio {
+  height:30px;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  color: rgba(71, 70, 70, 0.658);
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-top: 1px;
+  border-bottom-style: ridge;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
 }
 
 
@@ -111,7 +138,7 @@
   margin-top: 1px;
   border-bottom-style: ridge;
   border-bottom-width: 1px;
-  border-bottom-color: black;;
+  border-bottom-color: black;
 }
 
 .Pagamento {

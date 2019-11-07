@@ -16,14 +16,14 @@ function Perfil() {
       <div className="MeuPerfil">Meu Perfil</div>
       <div className="Nome">Guilherme Prado</div>
       <div className="Email">E-mail: prado.guilherme@gmail.com</div>
+      <div className="Pedidos">Pedidos</div>
+      <div className="PedidosBio">Veja seus pedidos realizados</div>
       <div className="SejaUmVendedor">Seja um vendedor</div>
       <div className="SejaUmVendedorBio">Habilite sua loja</div>
       <div className="Favoritos">Favoritos</div>
       <div className="FavoritosBio">Veja os produtos favoritados</div>
       <div className="Pagamento">Métodos de pagamento</div>
       <div className="PagamentoBio">Veja os meio de pagamento cadastrados</div>
-      <div className="Cupom">Cupons de desconto</div>
-      <div className="CupomBio">Insira um cupom de desconto</div>
       <div className="Avaliações">Minhas avaliações</div>
       <div className="AvaliaçõesBio">Veja os produtos que você avaliou</div>
       <div className="Configurações">Configurações</div>
