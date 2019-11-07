@@ -47,8 +47,8 @@
   width: 355px;
   background-color: rgb(255, 255, 255);
   text-align: left;
-  color: rgb(0, 0, 0);
-  font-size: 19px;
+  color: rgba(71, 70, 70, 0.658);
+  font-size: 14px;
   font-weight: normal;
   margin-left: 20px;
   margin-top: 5px;
@@ -224,3 +224,9 @@
   border-bottom-width: 1px;
   border-bottom-color: black;;
 }
+
+.Bottom {
+  padding-top: 80px;
+  background-color: white;
+}
+

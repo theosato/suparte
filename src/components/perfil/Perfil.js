@@ -16,8 +16,10 @@ function Perfil() {
       <div className="MeuPerfil">Meu Perfil</div>
       <div className="Nome">Guilherme Prado</div>
       <div className="Email">E-mail: prado.guilherme@gmail.com</div>
-      <div className="SejaUmVendedor">Seja um vendedor</div>
-      <div className="SejaUmVendedorBio">Habilite sua loja</div>
+      <div className="Favoritos">Seja um vendedor</div>
+      <div className="FavoritosBio">Habilite sua loja</div>
+      <div className="Favoritos">Meus Pedidos</div>
+      <div className="FavoritosBio">Habilite sua loja</div>
       <div className="Favoritos">Favoritos</div>
       <div className="FavoritosBio">Veja os produtos favoritados</div>
       <div className="Pagamento">Métodos de pagamento</div>
@@ -28,7 +30,7 @@ function Perfil() {
       <div className="AvaliaçõesBio">Veja os produtos que você avaliou</div>
       <div className="Configurações">Configurações</div>
       <div className="ConfiguraçõesBio">Altere dados cadastrais</div>
-      <BottomApp/>
+      <div className="Bottom"><BottomApp/></div>
 
 </div>
 }

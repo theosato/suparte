@@ -81,3 +81,8 @@
 .HomeHeader {
   width: 375px;
 }
+
+.BottomApp {
+  padding-top: 80px;
+  background-color: white;
+}

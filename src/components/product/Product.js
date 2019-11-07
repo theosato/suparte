@@ -4,6 +4,7 @@ import { BottomApp } from '../bottomApp/BottomApp';
 import { ProductHeader } from '../productHeader/ProductHeader';
 import queryString from 'query-string';
 import { Rating } from '../rating/Rating';
+import { AddToCart } from '../addToCart/AddToCart';
 
 const Product = () => {
     var produto = {}
@@ -59,7 +60,7 @@ const Product = () => {
               <div className="Name">{ produto.name }</div>
             </td>
             <td className="Option">
-              <div className="Price">{ produto.price }</div>
+              <Rating />
             </td>
           </tr>
         </table>
@@ -71,7 +72,7 @@ const Product = () => {
           </tr>
           <tr>
             <td className="Option">
-              <Rating />
+            <div className="Price">{ produto.price }</div>
             </td>
           </tr>
           <tr>
@@ -81,7 +82,7 @@ const Product = () => {
           </tr>
         </table>
       </div>
-      <BottomApp />
+      <AddToCart />
     </div>)
 }
 

@@ -12,7 +12,6 @@ function Success() {
   <Sucesso/>
   <Obrigado/>
   <ContinuarComprando/>
-  <BottomApp/>
 </div>
 }
 

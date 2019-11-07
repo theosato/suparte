@@ -7,6 +7,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import HomeIcon from '@material-ui/icons/Home';
 import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
 import PersonOutlineOutlinedIcon from '@material-ui/icons/PersonOutlineOutlined';
+import ReceiptOutlinedIcon from '@material-ui/icons/ReceiptOutlined';
 import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles({
@@ -34,11 +35,7 @@ export default function LabelBottomNavigation() {
         value="home" 
         icon={<HomeIcon />} />
         
-      <BottomNavigationAction 
-        component={Link} to="/" 
-        label="Search" 
-        value="search" 
-        icon={<SearchIcon />} />
+
 
       <BottomNavigationAction
         component={Link} to="/Success" 
@@ -48,9 +45,9 @@ export default function LabelBottomNavigation() {
 
       <BottomNavigationAction
         component={Link} to="/orders" 
-        label="Favorite" 
-        value="favorite" 
-        icon={<FavoriteIcon />} />
+        label="Pedidos" 
+        value="pedidos" 
+        icon={<ReceiptOutlinedIcon />} />
 
       <BottomNavigationAction 
         component={Link} to="/profile" 
