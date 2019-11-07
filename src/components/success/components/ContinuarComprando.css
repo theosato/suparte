@@ -1,0 +1,55 @@
+/* Button/Primary/Inactive/Big */
+.ButtonPrimaryInactiveBig {
+    position: absolute;
+    width: 343px;
+    height: 48px;
+    left: 18px;
+    top: 705px;
+}
+
+
+/* Rectangle */
+.Rectangle {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+/* Primary */
+.Primary {
+background: #DB3022;
+box-shadow: 0px 4px 8px rgba(211, 38, 38, 0.25);
+border-radius: 25px;
+}
+
+/* CONTINUAR COMPRANDO */
+.ContinuarComprando {
+position: absolute;
+left: 22.74%;
+right: 23.62%;
+top: 29.17%;
+bottom: 29.17%;
+}
+
+/* 14px */
+.Quartorzepx {
+font-family: Metropolis;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+}
+
+/* identical to box height, or 143% */
+.IdenticalToBoxHeight {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* White */
+.White {
+background: #FFFFFF;
+}

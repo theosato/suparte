@@ -1,0 +1,16 @@
+/* HeaderBar */
+.HomeHeader {
+width: 375px;
+height: 90px;
+left: 0px;
+top: 0px;
+
+background: #F9F9F9;
+}
+
+.PosBar  {
+width: 375px;
+height: 90px;
+left: 35px;
+top: 35px;
+}

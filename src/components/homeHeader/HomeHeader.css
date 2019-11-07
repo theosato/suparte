@@ -1,0 +1,19 @@
+/* HeaderBar */
+.HomeHeader {
+width: 375px;
+height: 80px;
+
+background: #F9F9F9;
+}
+
+.Table {
+    width: 375px;
+    height: 50px;
+    padding-top: 7%;
+}
+
+.Logo {
+    padding-left: 10px;
+    width: 45px;
+    height: 45px;
+}
