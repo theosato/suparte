@@ -4,8 +4,26 @@ import './HomeFeatured.css';
 import { ItemFeatured } from '../itemFeatured/ItemFeatured';
 import { Link } from 'react-router-dom';
 import { ProdutosMock } from '../../MockBD';
+import axios from 'axios';
 
 const HomeFeatured = () => {
+
+    var itens = [];
+
+    var config = {
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
+      }
+    };
+
+    axios.get('http://localhost:5000/item', config)
+      .then(function(response){
+        if (response.status == 200) {
+          itens = response.data;
+        }
+      });  
+
     const items = [
       {
           prod_id: '1',
