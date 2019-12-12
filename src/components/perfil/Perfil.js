@@ -9,8 +9,27 @@ import { HomeHeader } from '../homeHeader/HomeHeader';
 import { PedidoHeader } from '../pedidoHeader/PedidoHeader';
 import { ItemPedido } from '../itemPedido/ItemPedido';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
 
 function Perfil() {
+
+  var user = [];
+
+  var config = {
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
+    }
+  };
+
+  axios.get('http://localhost:5000/user/1', config)
+  .then(function(response){
+    if (response.status == 200) {
+      user = response.data;
+    }
+  });  
+
+
   return <div className="conteiner">
       <PedidoHeader />
       <div className="MeuPerfil">Meu Perfil</div>
