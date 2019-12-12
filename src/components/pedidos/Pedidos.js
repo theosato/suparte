@@ -9,8 +9,25 @@ import { HomeHeader } from '../homeHeader/HomeHeader';
 import { PedidoHeader } from '../pedidoHeader/PedidoHeader';
 import { ItemPedido } from '../itemPedido/ItemPedido';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
 
 function Pedidos() {
+
+  var pedido = [];
+
+  var config = {
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
+    }
+  };
+
+  axios.get('http://localhost:5000/item', config)
+  .then(function(response){
+    if (response.status == 200) {
+      pedido = response.data;
+    }
+  });  
 
   const pedidos = [
     {
