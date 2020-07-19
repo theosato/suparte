@@ -1,0 +1,29 @@
+.ProductHeader {
+width: 375px;
+height: 80px;
+
+background: #F9F9F9;
+}
+
+.Table {
+    width: 375px;
+}
+
+.Chevron {
+    height: 40px;
+    width: 100%;
+}
+
+.Logo {
+    padding-left: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.ProductName {
+    width: 100%;
+}
+
+.Option {
+    height: 50px;
+}

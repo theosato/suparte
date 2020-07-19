@@ -1,0 +1,102 @@
+
+.ItemPedido {
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 315px;
+    margin-bottom: 15px;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 1.5px;
+    border-color: darkgrey;
+}
+
+.ID {
+    /* 16px */
+    font-family: Metropolis;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.Date {    
+    font-family: Metropolis;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-bottom: 4px;
+
+    /* Gray */
+    color: black;
+    
+}
+
+.Tracking_Code {
+    /* 16px */
+    font-family: Metropolis;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-bottom: 4px;
+
+
+}
+
+.Quantity {
+    /* 16px */
+    font-family: Metropolis;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+.Total {
+    /* 16px */
+    font-family: Metropolis;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4px;
+
+}
+
+.Status {
+    /* 16px */
+    font-family: Metropolis;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4px;
+
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Metropolis Regular'), url('Metropolis-Regular.woff') format('woff');
+}
+
+.TextBox {
+    margin: 10px;
+}

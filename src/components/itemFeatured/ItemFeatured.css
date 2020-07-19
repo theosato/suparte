@@ -1,0 +1,55 @@
+/* Product card_new */
+.ItemFeatured {
+    width: 118px;
+    height: 260px;
+    background-color: #F9F9F9;
+}
+
+
+.Author {
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+    /* identical to box height */
+    
+    text-decoration-line: underline;
+    
+}
+
+.Name {
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+    
+    text-decoration-line: underline;
+    
+}
+
+.Price {
+    padding-top: 10%;
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    text-decoration-line: underline;
+    
+}
+
+.img {
+    width: 90px;
+    height: 200px;
+}
+
+.AddFavorite {
+    position: relative;
+    top: -40%;
+    left: 50%;
+}

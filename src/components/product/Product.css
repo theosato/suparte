@@ -1,0 +1,32 @@
+.Product {
+  text-align: center;
+  width: 375px;
+  height: 812px;
+  
+  background-color: beige;
+}
+
+.ProductHeader {
+  height: 80px;
+}
+
+.ProductSpace {
+  width: 375px;
+  height: 400px;
+  
+  background-color: white;
+}
+
+.Rating {
+  text-align: right;
+  margin-right: 15px;
+}
+
+.Table1 {
+  width: 375px;
+}
+
+.Table2 {
+  width: 375px;
+}
+
